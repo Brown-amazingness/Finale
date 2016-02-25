@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10112" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10083"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,63 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xzw-Lw-jJA">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="113"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YR5-ip-cY5">
+                                <rect key="frame" x="0.0" y="28" width="600" height="112"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rXf-7e-NvH">
+                                <rect key="frame" x="0.0" y="57" width="600" height="113"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6jx-rZ-QZO">
+                                <rect key="frame" x="0.0" y="86" width="600" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPw-Sh-wic">
+                                <rect key="frame" x="0.0" y="106" width="600" height="30"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="rXf-7e-NvH" secondAttribute="trailing" constant="-20" id="1EL-9f-Bw2"/>
+                            <constraint firstItem="rXf-7e-NvH" firstAttribute="width" secondItem="YR5-ip-cY5" secondAttribute="width" id="1JB-Dq-FRP"/>
+                            <constraint firstItem="lPw-Sh-wic" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3da-DC-fgh"/>
+                            <constraint firstItem="6jx-rZ-QZO" firstAttribute="height" secondItem="xzw-Lw-jJA" secondAttribute="height" id="4mi-A8-1x7"/>
+                            <constraint firstItem="YR5-ip-cY5" firstAttribute="width" secondItem="xzw-Lw-jJA" secondAttribute="width" id="C6J-Fs-80Z"/>
+                            <constraint firstItem="lPw-Sh-wic" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="CRV-YS-UsC"/>
+                            <constraint firstItem="6jx-rZ-QZO" firstAttribute="top" secondItem="rXf-7e-NvH" secondAttribute="bottom" constant="-1" id="CtT-x2-Ldo"/>
+                            <constraint firstItem="lPw-Sh-wic" firstAttribute="height" secondItem="xzw-Lw-jJA" secondAttribute="height" id="Hq7-UX-3bs"/>
+                            <constraint firstItem="YR5-ip-cY5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KbE-hV-jdQ"/>
+                            <constraint firstItem="YR5-ip-cY5" firstAttribute="height" secondItem="xzw-Lw-jJA" secondAttribute="height" id="RKj-tP-nx0"/>
+                            <constraint firstItem="6jx-rZ-QZO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="S4x-GJ-pi2"/>
+                            <constraint firstItem="lPw-Sh-wic" firstAttribute="top" secondItem="6jx-rZ-QZO" secondAttribute="bottom" constant="-9" id="Sl1-mc-N4B"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lPw-Sh-wic" secondAttribute="trailing" constant="-20" id="TNl-ku-jwk"/>
+                            <constraint firstItem="rXf-7e-NvH" firstAttribute="top" secondItem="YR5-ip-cY5" secondAttribute="bottom" constant="-1" id="U3f-Iu-LoL"/>
+                            <constraint firstItem="xzw-Lw-jJA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Vxa-Yx-27v"/>
+                            <constraint firstItem="YR5-ip-cY5" firstAttribute="top" secondItem="xzw-Lw-jJA" secondAttribute="bottom" constant="-2" id="aub-HP-PfU"/>
+                            <constraint firstItem="6jx-rZ-QZO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b0q-ui-vhC"/>
+                            <constraint firstItem="xzw-Lw-jJA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="cpn-aP-e20"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lPw-Sh-wic" secondAttribute="bottom" constant="50" id="fj4-Bj-mnl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xzw-Lw-jJA" secondAttribute="trailing" constant="-20" id="glg-Ev-xjy"/>
+                            <constraint firstItem="rXf-7e-NvH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="iMf-w8-4ll"/>
+                            <constraint firstItem="rXf-7e-NvH" firstAttribute="height" secondItem="xzw-Lw-jJA" secondAttribute="height" id="kb0-ts-MO3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6jx-rZ-QZO" secondAttribute="trailing" constant="-20" id="oJT-4w-5Mo"/>
+                            <constraint firstItem="rXf-7e-NvH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oaI-2k-aEw"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="215" y="263"/>
         </scene>
     </scenes>
 </document>

@@ -6,6 +6,9 @@
 //  Copyright © 2016 Shazia Haroon. All rights reserved.
 //
 
+@import GoogleMobileAds;
+
+
 #import <UIKit/UIKit.h>
 #import <MoPub/MPAdView.h>
 
@@ -30,7 +33,7 @@
 
 
 
-@property (nonatomic, retain) MPAdView *adView;
+@property (nonatomic, retain) GADBannerView *adView;
 
 
 

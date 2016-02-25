@@ -1,0 +1,1 @@
+Introducing Finale! Finale is a simple but eloquent calculator that is used to find the grade necessary on a final. Finale is simple and clean while running very efficiently. Each aspect has been fine tuned to ensure optimal ergonomics. Bottom line, Finale is driven by the users of the app to make it the best calculator you'll ever use.

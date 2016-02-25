@@ -20,6 +20,7 @@
 		1D23286B1C3B847B003F528B /* MoPub.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D2328691C3B847B003F528B /* MoPub.bundle */; };
 		1D2328871C3B99B7003F528B /* FinaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2328861C3B99B7003F528B /* FinaleUITests.swift */; };
 		1D2328931C3B9B30003F528B /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2328921C3B9B30003F528B /* SnapshotHelper.swift */; };
+		D90067105A8940C9723A45CF /* libPods-Finale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFD28F5BA5A244066073A06 /* libPods-Finale.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C94F67014BA6E03FA654DE4 /* Pods-Finale.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finale.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Finale/Pods-Finale.debug.xcconfig"; sourceTree = "<group>"; };
 		1D2328381C3B8149003F528B /* Finale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D23283C1C3B8149003F528B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D23283E1C3B8149003F528B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 		1D2328861C3B99B7003F528B /* FinaleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinaleUITests.swift; sourceTree = "<group>"; };
 		1D2328881C3B99B7003F528B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D2328921C3B9B30003F528B /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapshotHelper.swift; sourceTree = "<group>"; };
+		1DD16C5A1C45F89D00553A4B /* GADMAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		1DD16C5B1C45F89D00553A4B /* GADMAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		1DD16C5C1C45F89D00553A4B /* GADMediationAdRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMediationAdRequest.h; sourceTree = "<group>"; };
+		1DD16C5D1C45F89D00553A4B /* GADMEnums.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMEnums.h; sourceTree = "<group>"; };
+		1DD16C5E1C45F89D00553A4B /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMRewardBasedVideoAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
+		1DD16C5F1C45F89D00553A4B /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMRewardBasedVideoAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
+		2BDD45CBAA237402DC779640 /* Pods-Finale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finale.release.xcconfig"; path = "Pods/Target Support Files/Pods-Finale/Pods-Finale.release.xcconfig"; sourceTree = "<group>"; };
+		3FFD28F5BA5A244066073A06 /* libPods-Finale.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Finale.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,7 @@
 				1D2328671C3B82F7003F528B /* Crashlytics.framework in Frameworks */,
 				1D23286A1C3B847B003F528B /* MoPub.framework in Frameworks */,
 				1D2328661C3B82F7003F528B /* Fabric.framework in Frameworks */,
+				D90067105A8940C9723A45CF /* libPods-Finale.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +97,8 @@
 				1D23283A1C3B8149003F528B /* Finale */,
 				1D2328851C3B99B7003F528B /* FinaleUITests */,
 				1D2328391C3B8149003F528B /* Products */,
+				BB56AE83B9606BDB8C6F9CF0 /* Pods */,
+				945BE23EB65AABAEF48EC100 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +132,12 @@
 		1D23283B1C3B8149003F528B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1DD16C5A1C45F89D00553A4B /* GADMAdNetworkAdapterProtocol.h */,
+				1DD16C5B1C45F89D00553A4B /* GADMAdNetworkConnectorProtocol.h */,
+				1DD16C5C1C45F89D00553A4B /* GADMediationAdRequest.h */,
+				1DD16C5D1C45F89D00553A4B /* GADMEnums.h */,
+				1DD16C5E1C45F89D00553A4B /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */,
+				1DD16C5F1C45F89D00553A4B /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */,
 				1D23283C1C3B8149003F528B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -134,6 +153,23 @@
 			path = FinaleUITests;
 			sourceTree = "<group>";
 		};
+		945BE23EB65AABAEF48EC100 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FFD28F5BA5A244066073A06 /* libPods-Finale.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB56AE83B9606BDB8C6F9CF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C94F67014BA6E03FA654DE4 /* Pods-Finale.debug.xcconfig */,
+				2BDD45CBAA237402DC779640 /* Pods-Finale.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,10 +177,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D23285A1C3B814B003F528B /* Build configuration list for PBXNativeTarget "Finale" */;
 			buildPhases = (
+				251B844174FFA518BB99C446 /* Check Pods Manifest.lock */,
 				1D2328341C3B8149003F528B /* Sources */,
 				1D2328351C3B8149003F528B /* Frameworks */,
 				1D2328361C3B8149003F528B /* Resources */,
 				1D2328631C3B829F003F528B /* ShellScript */,
+				263EB749B65B232AB3B3B034 /* Embed Pods Frameworks */,
+				E50AAEB7A1154EFC4830D1E9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,6 +285,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "./Fabric.framework/run 910bda588a2c4021c9bf82e9a6c5211921e83f12 cb1bbd2f25f32ec295f3586ecaa8b0fc859503f58ce11b00a722cfad3acebd6b";
+		};
+		251B844174FFA518BB99C446 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		263EB749B65B232AB3B3B034 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Finale/Pods-Finale-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E50AAEB7A1154EFC4830D1E9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Finale/Pods-Finale-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -388,6 +472,7 @@
 		};
 		1D23285B1C3B814B003F528B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C94F67014BA6E03FA654DE4 /* Pods-Finale.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -397,7 +482,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Finale/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iforgottonamethis.Finale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -406,6 +491,7 @@
 		};
 		1D23285C1C3B814B003F528B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BDD45CBAA237402DC779640 /* Pods-Finale.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -415,7 +501,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Finale/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iforgottonamethis.Finale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
