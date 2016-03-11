@@ -20,7 +20,7 @@
 		1D23286B1C3B847B003F528B /* MoPub.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1D2328691C3B847B003F528B /* MoPub.bundle */; };
 		1D2328871C3B99B7003F528B /* FinaleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2328861C3B99B7003F528B /* FinaleUITests.swift */; };
 		1D2328931C3B9B30003F528B /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2328921C3B9B30003F528B /* SnapshotHelper.swift */; };
-		D90067105A8940C9723A45CF /* libPods-Finale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FFD28F5BA5A244066073A06 /* libPods-Finale.a */; };
+		2DA496E67399E7CB040D3A09 /* Pods_Finale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F684DCB941F20186451BAF6 /* Pods_Finale.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +62,7 @@
 		1DD16C5E1C45F89D00553A4B /* GADMRewardBasedVideoAdNetworkAdapterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMRewardBasedVideoAdNetworkAdapterProtocol.h; sourceTree = "<group>"; };
 		1DD16C5F1C45F89D00553A4B /* GADMRewardBasedVideoAdNetworkConnectorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GADMRewardBasedVideoAdNetworkConnectorProtocol.h; sourceTree = "<group>"; };
 		2BDD45CBAA237402DC779640 /* Pods-Finale.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finale.release.xcconfig"; path = "Pods/Target Support Files/Pods-Finale/Pods-Finale.release.xcconfig"; sourceTree = "<group>"; };
-		3FFD28F5BA5A244066073A06 /* libPods-Finale.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Finale.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F684DCB941F20186451BAF6 /* Pods_Finale.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Finale.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 				1D2328671C3B82F7003F528B /* Crashlytics.framework in Frameworks */,
 				1D23286A1C3B847B003F528B /* MoPub.framework in Frameworks */,
 				1D2328661C3B82F7003F528B /* Fabric.framework in Frameworks */,
-				D90067105A8940C9723A45CF /* libPods-Finale.a in Frameworks */,
+				2DA496E67399E7CB040D3A09 /* Pods_Finale.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,7 +156,7 @@
 		945BE23EB65AABAEF48EC100 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3FFD28F5BA5A244066073A06 /* libPods-Finale.a */,
+				2F684DCB941F20186451BAF6 /* Pods_Finale.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

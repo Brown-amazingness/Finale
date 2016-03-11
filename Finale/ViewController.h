@@ -37,6 +37,10 @@
 
 
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *finalViewBottomConstraint;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *finalViewHeightConstraint;
+
+@property (weak, nonatomic) IBOutlet UIView *finalView;
 
 
 
@@ -44,27 +48,25 @@
 
 
 
-
-@property (strong, nonatomic) UITextField *desiredGrade;
-@property (strong, nonatomic) UITextField *finalWeight;
-@property (strong, nonatomic) UITextField *currentGrade;
-
-
-@property (strong, nonatomic) UIButton *calculateButton;
-@property (strong, nonatomic) UIButton *resetButton;
-@property (strong, nonatomic) UIButton *shareButton;
+@property (weak, nonatomic) IBOutlet UITextField *desiredGrade;
+@property (weak, nonatomic) IBOutlet UITextField *finalWeight;
+@property (weak, nonatomic) IBOutlet UITextField *currentGrade;
 
 
-@property (strong, nonatomic) UILabel *finalGradeLabel;
-
-@property (strong, nonatomic) UIVisualEffectView *finalView;
-
-@property (strong, nonatomic) UIVisualEffectView *vibrancyEffectView;
+@property (weak, nonatomic) IBOutlet UIButton *calculateButton;
+- (IBAction)calculateButtonPressed:(UIButton *)sender;
 
 
 
 
 
+
+
+@property (weak, nonatomic) IBOutlet UILabel *finalGradeNumberLabel;
+
+
+
+@property (weak, nonatomic) IBOutlet UILabel *finalGradeCurrentGradeLabel;
 
 
 
