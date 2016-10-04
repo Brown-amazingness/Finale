@@ -7,7 +7,5 @@
 //
 
 #import "UHGrade.h"
-
 @implementation UHGrade
-
 @end
